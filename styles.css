@@ -7,7 +7,7 @@ body{
     margin: 0;
 }
 .container{
-    width: 100%;
+    width: 90%;
     margin-left: 2%;
     overflow: hidden;
     padding: 0 01px;
@@ -86,18 +86,47 @@ body{
     margin: 10px 0 0 0;
 }
 #main-article h2{
-    font-family: helvetica, serif, arial;
-    font-size: 12px;
+    font-family: serif, Arial, Helvetica, sans-serif;
+    font-size: 2.75rem;
+    line-height: 1.090;
     font-weight: bold;
-    margin: 15px 0 -9px 0;
+    margin: 50px 0 0 0;
     padding: 0;
+    border: 0;
 }
 #main-article h3{
     font-family: helvetica, serif, arial;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+#main-article h4{
+    font-family: helvetica, serif, arial;
+    font-size: 12px;
     font-weight: lighter;
     margin: 0;
     padding: 0;
+    color: rgb(134, 134, 134);
+}
+
+.main-section{
+    box-sizing: border-box;
+   word-spacing: 1px;
+   line-height: 1.5em;
+   padding-right: 30%;
+   padding-left: 3%;
+   
+}
+.main-section li{
+    line-height: 2.5em;
+}
+.second-section{
+    box-sizing: border-box;
+   word-spacing: 1px;
+   line-height: 1.5em;
+   padding-right: 30%;
+   padding-left: 3%;
 }
 #sidebar{
     text-align: justify;
@@ -114,7 +143,7 @@ body{
 }
 
 figure{
-    margin: 0;
+    margin: 10px 0 0 0;
     display: inline-block;
     position: relative;
 }
@@ -127,16 +156,54 @@ figcaption{
     max-width: 100%;
     font-size: 14px;
     padding: 3px;
-    color: aliceblue; word-spacing: 0.18em;
+    color: aliceblue; word-spacing: 0.01em;
+    letter-spacing: -0.35px;
 
 }
 #main-footer{
-    background-color: tomato;
-    color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
     text-align: left;
-    padding: 20px;
+    font-size: 18px;
+    font-family: serif,Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 0px 50px 20px;
     clear: both;
+    box-sizing: border-box;
+    width: 65%;
+    border-top-style: solid;
+    border-top-color: rgb(190, 26, 26);
+    border-top-width: medium;
+    border-bottom-color: rgb(190, 26, 26);
+    border-bottom-width: medium;
+    border-bottom-style: solid;
 }
+#main-footer ul{
+    padding: 0px;
+    list-style: square;
+}
+#main-footer li{
+    display: inline;
+    box-sizing: border-box;
+
+}
+#main-footer a{
+    color:rgb(34, 34, 34);
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 15px;
+    border: rgb(190, 26, 26);
+    border-width: thin;
+    border-style: solid;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
 @media(max-width: 600px){
     #main-article{
         width: 100%;
